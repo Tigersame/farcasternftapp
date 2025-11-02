@@ -5,20 +5,24 @@ import { base } from "viem/chains";
  * NFT Metadata Configuration
  */
 export const mintMetadata = {
-  name: "Mini App Mint Demo",
+  name: "farcasterbasenft", // NFT Collection Name
   description:
-    "A simple example of an onchain action in a Farcaster mini app. Tap the button below to mint this image.",
-  imageUrl: "https://mint-demo.replit.app/nft.png",
+    "An exclusive NFT collection on Base. Mint your unique digital artwork directly through Farcaster.", // ← Update with your collection description
+  // You can choose from: /nft-main.svg, /nft-1.svg through /nft-10.svg, or /nft.png
+  imageUrl: "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm",
   creator: {
-    name: "horsefacts.eth",
-    fid: 3621,
-    profileImageUrl: "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/27ebb092-6f26-4397-6027-8c90d909ce00/original",
+    name: "meenas", // Creator name
+    fid: 639734, // Farcaster ID
+    profileImageUrl: "/icon.png", // ← Update with your profile image URL
+    walletAddress: "0xeafe5088bcd7eb27fa1e4aa417a55ed5ea2dab8b" as Address, // Creator wallet address
   },
   chain: "Base",
-  priceEth: "0.0004",
+  priceEth: "0.0004", // ← Update with your mint price in ETH (e.g., "0.001", "0.01")
   startsAt: null,
   endsAt: null,
   isMinting: true,
+  minSupply: 1, // Minimum supply required for the collection
+  maxSupply: null, // Maximum supply (null for unlimited)
 } as const;
 
 /**
@@ -75,7 +79,7 @@ export const contractConfig = {
     },
   ] as const as Abi,
   vectorId: 6506,
-  referrer: "0x075b108fC0a6426F9dEC9A5c18E87eB577D1346a" as Address,
+  referrer: "0xac2180ED4a229134A9e753E26CAaF101D9A4cb06" as Address, // Referrer/owner wallet address
 } as const;
 
 /**
@@ -83,13 +87,14 @@ export const contractConfig = {
  */
 export const embedConfig = {
   version: "next",
-  imageUrl: "https://mint-demo.replit.app/nft.png",
+  // Frame preview image - can be same as NFT or a different preview
+  imageUrl: "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm",
   button: {
     title: "Mint",
     action: {
       type: "launch_frame",
       name: "NFT Mint",
-      url: "https://mint-demo.replit.app/",
+      url: "https://farcasternftapp.vercel.app/", // Deployment URL
     },
   },
 } as const;
