@@ -6,7 +6,7 @@
   },
   "frame": {
     "version": "1",
-    "name": "farcasterbasenft",
+    "name": "Farcaster Base NFT",
     "iconUrl": "https://farcasternftapp.vercel.app/icon.png",
     "homeUrl": "https://farcasternftapp.vercel.app/",
     "imageUrl": "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm",
@@ -16,19 +16,21 @@
   },
   "miniApp": {
     "version": "1",
-    "name": "farcasterbasenft",
+    "name": "Farcaster Base NFT",
+    "subtitle": "Mint exclusive NFTs on Base",
+    "description": "Mint exclusive NFTs on Base. Collect unique digital artwork directly through Farcaster.",
+    "tagline": "Collect exclusive NFTs on Base",
     "homeUrl": "https://farcasternftapp.vercel.app/",
     "iconUrl": "https://farcasternftapp.vercel.app/icon.png",
     "splashImageUrl": "https://farcasternftapp.vercel.app/icon.png",
     "splashBackgroundColor": "#eeccff",
-    "subtitle": "Mint exclusive Base NFTs",
-    "description": "Mint exclusive NFTs on Base. Collect unique digital artwork directly through Farcaster.",
-    "tagline": "Collect unique artwork",
     "primaryCategory": "art-creativity",
-    "tags": ["nft", "blockchain", "base", "minting"],
+    "tags": ["nft", "base", "blockchain", "minting"],
     "heroImageUrl": "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm",
-    "screenshotUrls": [],
-    "ogTitle": "farcasterbasenft",
+    "screenshotUrls": [
+      "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm"
+    ],
+    "ogTitle": "Farcaster Base NFT",
     "ogDescription": "Mint exclusive NFTs on Base. Collect unique digital artwork directly through Farcaster.",
     "ogImageUrl": "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm"
   },
