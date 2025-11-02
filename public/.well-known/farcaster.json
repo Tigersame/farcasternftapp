@@ -17,5 +17,6 @@
   "primaryCategory": "art-creativity",
   "description": "Mint exclusive NFTs on Base. Collect unique digital artwork directly through Farcaster.",
   "screenshots": [],
-  "tags": ["nft", "blockchain", "base", "minting"]
+  "tags": ["nft", "blockchain", "base", "minting"],
+  "baseAccountAddress": "0xeafe5088bcd7eb27fa1e4aa417a55ed5ea2dab8b"
 }
