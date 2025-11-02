@@ -1,17 +1,21 @@
 {
   "accountAssociation": {
     "header": "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-    "payload": "eyJkb21haW4iOiJtaW50LWRlbW8ucmVwbGl0LmFwcCJ9",
+    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXJuZnRhcHAudmVyY2VsLmFwcCJ9",
     "signature": "MHhkYTczYjA4MjQ4NmU5NWRjNTJkMjExNTg4NzVhMzA0ZDg2NzBhYTk4YzlhYjdmNDViZWMwZmQzM2M4ZTU4OTQ5MTgzODllYjllMmQ2M2IyZGFkMDM5NDRiYzAzZDA2YjkyYTcxNjZiMmM2ZDA5YmZlZjFkOThjZGI2MGFhYzc2YTFj"
   },
   "frame": {
     "version": "1",
-    "name": "Mint Demo",
-    "iconUrl": "https://mint-demo.replit.app/icon.png",
-    "homeUrl": "https://mint-demo.replit.app/",
-    "imageUrl": "https://mint-demo.replit.app/nft.png",
+    "name": "farcasterbasenft",
+    "iconUrl": "https://farcasternftapp.vercel.app/icon.png",
+    "homeUrl": "https://farcasternftapp.vercel.app/",
+    "imageUrl": "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm",
     "buttonTitle": "Mint",
-    "splashImageUrl": "https://mint-demo.replit.app/icon.png",
+    "splashImageUrl": "https://farcasternftapp.vercel.app/icon.png",
     "splashBackgroundColor": "#eeccff"
-  }
+  },
+  "primaryCategory": "art-creativity",
+  "description": "Mint exclusive NFTs on Base. Collect unique digital artwork directly through Farcaster.",
+  "screenshots": [],
+  "tags": ["nft", "blockchain", "base", "minting"]
 }
