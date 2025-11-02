@@ -1,0 +1,39 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7867F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C65C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#342942;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DBD4FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F2E5FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  
+  <!-- Main central design -->
+  <circle cx="256" cy="200" r="100" fill="url(#mainGrad)" opacity="0.9"/>
+  <circle cx="256" cy="200" r="70" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Inner circles -->
+  <circle cx="236" cy="185" r="20" fill="#7867F6" opacity="0.9"/>
+  <circle cx="276" cy="185" r="20" fill="#7867F6" opacity="0.9"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="120" r="40" fill="#DBD4FF" opacity="0.5"/>
+  <circle cx="392" cy="120" r="40" fill="#DBD4FF" opacity="0.5"/>
+  <circle cx="120" cy="392" r="40" fill="#DBD4FF" opacity="0.5"/>
+  <circle cx="392" cy="392" r="40" fill="#DBD4FF" opacity="0.5"/>
+  
+  <!-- Pattern -->
+  <rect x="180" y="280" width="152" height="60" rx="30" fill="url(#mainGrad)" opacity="0.9"/>
+  <text x="256" y="320" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#342942" text-anchor="middle">FARCASTER</text>
+  
+  <!-- Small decorative stars -->
+  <polygon points="80,200 85,215 100,215 87,225 92,240 80,230 68,240 73,225 60,215 75,215" fill="#FFFFFF" opacity="0.6"/>
+  <polygon points="432,200 437,215 452,215 439,225 444,240 432,230 420,240 425,225 412,215 427,215" fill="#FFFFFF" opacity="0.6"/>
+  <polygon points="256,320 261,335 276,335 263,345 268,360 256,350 244,360 249,345 236,335 251,335" fill="#FFFFFF" opacity="0.4"/>
+</svg>
+
