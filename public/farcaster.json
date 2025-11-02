@@ -4,9 +4,11 @@
     "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXJuZnRhcHAudmVyY2VsLmFwcCJ9",
     "signature": "+58Dl4SviwAgy8x3Y+7xYLrLX7BZdyWWN4xIoOZuO1tJar80as6z+rHt5/B5m96K/fpP/v8UcicokePzu9SG3hs="
   },
+
   "baseBuilder": {
     "ownerAddress": "0xeafe5088bcd7eb27fa1e4aa417a55ed5ea2dab8b"
   },
+
   "frame": {
     "version": "1",
     "name": "farcasterbasenft",
@@ -17,6 +19,7 @@
     "splashImageUrl": "https://farcasternftapp.vercel.app/icon.png",
     "splashBackgroundColor": "#eeccff"
   },
+
   "miniapp": {
     "version": "1",
     "name": "farcasterbasenft",
@@ -36,3 +39,4 @@
     "ogImageUrl": "https://gateway.pinata.cloud/ipfs/bafkreih4uxlnupyc5vwmgyoumylfsrzh42s7ji6fjvtsnnyvsrsewek4tm"
   }
 }
+
