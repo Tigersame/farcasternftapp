@@ -14,7 +14,7 @@
     "splashImageUrl": "https://farcasternftapp.vercel.app/icon.png",
     "splashBackgroundColor": "#eeccff"
   },
-  "miniapp": {
+  "miniApp": {
     "version": "1",
     "name": "farcasterbasenft",
     "homeUrl": "https://farcasternftapp.vercel.app/",
